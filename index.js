@@ -7,3 +7,9 @@ function theBeatlesPlay(musicianArray, instrumentArray) {
   
   return newArray;
 }
+
+function johnLennonFacts(factArray) {
+  while (i < factArray.length) {
+    factArray[i] = factArray[i] + "!!!"
+  }
+}
